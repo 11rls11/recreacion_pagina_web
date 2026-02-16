@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.navbar {
+    background: black;
+    font-family: "Ek Mukta", sans-serif;
+    padding: 10px 60px;
+    text-transform: uppercase;
+}
+
+.navdiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo a {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-size: 24px;
+    font-weight: 800;
+    color: white;
+    letter-spacing: 2px;
+    line-height: 1;
+}
+
+.logo img {
+    height: 35px;
+}
+
+.menu a {
+    font-size: 22px;
+    font-weight: 700;
+    color: white;
+    letter-spacing: 1px;
+    line-height: 1;
+}
+
+li {
+    list-style: none;
+    display: inline;
+    margin-right: 25px;
+}
+
+li i {
+    font-size: 24px;
+    color: white;
+}
+
+.footer {
+    position: relative;
+    width: 100%;
+    background: black;
+    min-height: 54px;
+    padding: 15px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+    margin: 5px 0;
+    flex-wrap: wrap;
+}
+
+.menu-elem {
+    list-style: none;
+}
+
+.menu-icon {
+    color: white;
+    font-size: 14px;
+    font-family: "Ek Mukta", sans-serif;
+    display: inline-block;
+    opacity: 0.75;
+    margin: 0 0 0 -15px;
+    transition: 0.3s;
+    text-transform: uppercase;
+}
+
+.menu-icon:hover {
+    opacity: 1;
+    color: darkblue;
+}
+
+.content {
+    padding: 20px 0 0;
+    width: calc(100% - 120px);
+    margin-top: 10px;
+    margin-left: 60px;
+    display: block;
+    font-size: 19px;
+    color: black;
+    font-family: "Ek Mukta", sans-serif;
+    font-weight: 200;
+    line-height: 1.5;
+}
+
+.content p {
+    font-size: 19px;
+    margin-bottom: 20px;
+}
+
+.content h3 {
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+
+.title {
+    font-size: 48px;
+    font-family: "Ek Mukta", sans-serif;
+    font-weight: 200;
+    line-height: 1.2;
+    margin: 0 0 20px;
+    text-align: center;
+}
+
+.contact-notice p {
+    margin-bottom: 0;
+}
+
+.more-info p {
+    margin-top: 20px;
+}
+
+.image-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 60px;
+    gap: 20px;
+}
+
+.image-container img {
+    width: calc((100% - 40px) / 3);
+    height: auto;
+    object-fit: cover;
+}
