@@ -159,3 +159,76 @@ li i {
     font-size: 24px;
     color: black;
 }
+
+.bottom {
+    background-color: #e8e8e8;
+    padding: 60px 100px;
+    font-family: "Ek Mukta", sans-serif;
+}
+
+.bottom-row {
+    margin-bottom: 40px;
+}
+
+.bottom h4 {
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    width: 180px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.bottom a {
+    color: black;
+    font-weight: bold;
+}
+
+.bottom img {
+    max-width: 80%;
+    height: auto;
+    margin-left: 15px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.bottom p {
+    font-size: 19px;
+    line-height: 1.6;
+    margin-top: 20px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.bottom img + p {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 5px;
+    max-width: calc(100% - 350px);
+}
+
+.box {
+    display: flex;
+    justify-content: left;
+    margin-top: 20px;
+}
+
+.form-box input {
+    font-size: 18px;
+    color: black;
+    padding: 15px 10px;
+    border: none;
+    outline: none;
+    background: white;
+}
+
+.form-box button {
+    color: white;
+    padding: 20px 20px;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    background: blue;
+    cursor: pointer;
+    transition: 0.3s;
+}
